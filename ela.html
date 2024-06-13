@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="nela.css">
+  <script>
+    // Menangani klik pada tombol "Beli Sekarang" di setiap produk
+document.addEventListener("DOMContentLoaded", function() {
+    var buyNowButtons = document.querySelectorAll(".btn");
+    buyNowButtons.forEach(function(button) {
+        button.addEventListener("click", function(event) {
+            event.preventDefault(); // Mencegah perilaku default dari tombol "Beli Sekarang"
+            var productName = button.parentElement.querySelector("h3").innerText;
+            var productPrice = button.parentElement.querySelector("p").innerText;
+            alert("Anda telah membeli " + productName + " dengan harga " + productPrice);
+            // Di sini Anda dapat menambahkan logika lanjutan, seperti menambahkan produk ke keranjang belanja atau memperbarui total pembelian
+        });
+    });
+});
+</script>
+
+  
+    <link rel="stylesheet" href="nela.css">
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aruna Aesthetic</title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+       <div class="logo"><h1>Aruna Fashion</h1></div>
+      <ul
+       <li><a href="http://localhost:7700/ela.html">Beranda</a></li>
+       <li><a href="http://localhost:7700/nelaaa.html">Produk</a></li>
+        <li><a href="http://localhost:7700/nelaa.html">BioData</a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=62+8992031800&text=Halo%20Admin%20Saya%20Mau%20Order">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+   <selection class="hero">
+      <h1 style="color: white">
+       Terimakasih sudah datang toko kami silahkan melihat lihat produk kami.
+      </h1>
+      <p style="color: white"></p>
+      <p style="color: white">Banyak produk yang bisa anda pilih 😁</p>
+    </section>
+    
+    <section class="featured-products">
+      <style>
+        body{
+          background-color: pink;
+        }
+      </style>
+      <h2>Jika anda berminat untuk membeli click tombol "produk" yang ada di atas!!</h2>
+      <div class="product-card">
+        <div class="product-card">
+          <img src="IMG-20240612-WA0018.jpg"
+          width="300"
+          alt="isi sendiri">
+          <h3>baju wanita tren kekinian</h3>
+          <button disabled>100.000</button>
+        </div>
+        <div class="product-card">
+          <img src="IMG-20240612-WA0019.jpg"
+          width="300"
+          alt="Website toko online">
+          <h3>atasan baju remaja</h3>
+          <button disabled>100.000</button>
+        </div>
+        <div class="product-card">
+          <img src="IMG-20240612-WA0020.jpg" 
+          width="300"
+          alt="website toko online">
+          <h3>Kemeja putih-biru-coklat</h3>
+          <button disabled>60.000</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h1>Aruna Aesthetic</h1>
+     <h2>#0896XXXXXXXX</h2>
+     <h3> &copy; 2024  All rights reserved</h3>
+  <script src=""></script>
+  </body>
+</html>
